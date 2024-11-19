@@ -1,0 +1,496 @@
+:root{
+    --fuentePrincipal: "Montserrat", sans-serif;
+    --textoNegrita: 900;
+    --textoNormal: 400;
+    --textoThin: 100;
+
+    --colorPrincipsl: #49495a;
+    --colorTitulo: #403ccf;
+
+    --bgPrincipal: #fbfaff;
+    --bgSecundario: #eae8f3;
+    --bgBannerPrincipal: #ede0ea;
+    --bgBannerSecundario: #ebdefe;
+    --bgBtnPrincipal: #2623b1;
+}
+body{
+    font-family: var(--fuentePrincipal);
+    font-size: 16px;
+}
+
+/* Bloque Header */
+
+.bloqueHeader{
+    display: flex;
+    height: 600px;
+}
+
+.bloqueHeader__contenedor__imagen{
+    width: 50%
+}
+
+.Imagen__Header{
+    height: 100%;
+    width: 100%;
+}
+.bloqueHeader__contenedor__texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    width: 50%;
+}
+
+.bloqueHeader__contenedor__infoTitulo{
+    color: var(--colorTitulo);
+    font-size: 3.3rem;
+    font-weight: var(--textoNegrita);
+}
+
+.bloqueHeader__contenedor__infoParrafo{
+    color: var(--colorPrincipsl);
+    font-size: 1.4rem;
+    font-weight: var(--textoNormal);
+}
+
+/* Segunda pagina */
+.filas{
+    display: flex;
+    padding: 6rem;
+    padding-top: 2rem;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+
+.BloqueSegundoContenedor2{
+    padding: 2rem;
+    /* background-color: aquamarine; */
+}
+
+.bloqueSegundo__Titulo{
+    color: var(--bgBtnPrincipal);
+    padding-left: 6rem;
+    font-weight: var(--textoNegrita);
+    /* background-color: aqua; */
+
+
+}
+
+.BloqueSegundoContenedor2__Titulo{
+    color: var(--colorTitulo);
+    /* background-color: #49495a; */
+}
+
+/* Tercera pagina */
+
+.BloqueTercero__Titulo{
+    padding-left: 4rem;
+    color: var(--colorTitulo);
+}
+
+.contenedor2{
+    display: flex;
+    /* background-color: aqua; */
+    padding: 2rem;
+}
+
+.bloqueTercero{
+    display: flex;
+    /* background-color: blueviolet; */
+    text-align: initial;
+}
+
+.BloqueTercero__imagen{
+    /* background-color: #2623b1; */
+    
+
+}
+
+.BloqueTercero__contedor__apartado{
+    padding: 2rem;
+}
+
+.BloqueTercero__contenedor__titulo{
+    color: var(--colorPrincipsl);
+}
+
+.BloqueTercero__contedor__apartado2{
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+.BloqueTercero__imagen{
+    width: 100%;
+    height: 600px;
+    padding: 1.5rem;
+}
+
+/* Cuarta pagina */
+
+/* Cuarta Página - Ambiente */
+.CuartaPagina {
+    padding: 4rem;
+    background-color: var(--bgPrincipal);
+}
+
+.CuartaPagina__Titulo {
+    font-size: 2.5rem;
+    color: var(--colorTitulo);
+    font-weight: var(--textoNegrita);
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+/* Configuración del grid */
+.CuartaPagina__Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 2rem; /* Espacio entre columnas */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Columna de texto */
+.CuartaPagina__Texto {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas para los bloques */
+    gap: 1.5rem;
+}
+
+.CuartaPagina__Bloque {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.CuartaPagina__Bloque i {
+    font-size: 2rem;
+    color: var(--colorTitulo);
+}
+
+.CuartaPagina__Bloque h2 {
+    font-size: 1.2rem;
+    color: var(--colorTitulo);
+    margin: 0;
+}
+
+.CuartaPagina__Bloque p {
+    font-size: 1rem;
+    color: var(--colorPrincipsl);
+    margin: 0;
+}
+
+/* Columna de imagen */
+.CuartaPagina__Imagen img {
+    width: 90%;
+    height: 700px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+/* Quinta pagina */
+
+.QuintaPagina__Imagen{
+    width: 100%;
+}
+.QuintaPagina__Titulo{
+    padding-left: 3rem;
+    color: var(--bgBtnPrincipal);
+}
+.contenedor{
+    display: flex;
+}
+
+.QuintaPagina__Seccion__Numero{
+    text-align: center;
+    padding: 2rem;
+    color: var(--colorPrincipsl);
+}
+
+.QuintaPagina__Seccion__Titulo{
+    text-align: center;
+    color: var(--colorTitulo);
+}
+
+.QuintaPagina__Seccion__Parrafo{
+    padding: 3rem;
+    color: var(--colorPrincipsl);
+}
+
+/* Sexta Pagina */
+
+/* Sección de promociones */
+.promociones {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f4fb; /* Fondo claro */
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Contenedor del texto */
+.contenedor-texto {
+    padding: 2rem;
+}
+
+.titulo {
+    color: #403ccf; /* Color principal */
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+/* Lista de promociones */
+.contenedor-lista {
+    display: grid;
+    grid-template-rows: repeat(3, auto); /* Tres filas */
+    gap: 2rem;
+}
+
+.item {
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.numero {
+    background-color: #eae8f3; /* Fondo del número */
+    color: #403ccf; /* Color del texto */
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #49495a;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #49495a;
+    margin: 0;
+}
+
+/* Imagen */
+.contenedor-imagen img {
+    width: 100%;
+    height: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsivo */
+@media (max-width: 1024px) {
+    .promociones {
+        grid-template-columns: 1fr; /* Una columna en pantallas medianas */
+    }
+
+    .contenedor-imagen {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Inicio Octava */
+
+/* Sección Testimonios */
+.testimonios {
+    padding: 2rem;
+    background-color: #fdfdfd; /* Fondo claro */
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.titulo {
+    color: #403ccf; /* Color principal */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+/* Contenedor de testimonios */
+.contenedor-testimonios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 2rem;
+}
+
+.testimonio {
+    background-color: #f9f9fc; /* Fondo suave */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.testimonio h3 {
+    font-size: 1.5rem;
+    color: #403ccf; /* Color principal */
+    margin-bottom: 1rem;
+}
+
+.autor {
+    font-size: 0.9rem;
+    color: #6f6f85;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.testimonio p {
+    color: #49495a;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Responsivo */
+@media (max-width: 1024px) {
+    .contenedor-testimonios {
+        grid-template-columns: 1fr 1fr; /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedor-testimonios {
+        grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .testimonio {
+        text-align: center;
+    }
+}
+
+
+/* Inicio Novena */
+/* Sección Próximos Pasos */
+.proximos-pasos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas */
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff; /* Fondo blanco */
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Contenedor de texto */
+.contenedor-texto {
+    padding: 1rem;
+}
+
+.titulo {
+    color: #403ccf; /* Color principal */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* Botones */
+.botones {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-reserva {
+    background: linear-gradient(90deg, #5b3be6, #403ccf);
+    color: white;
+}
+
+.btn-descarga {
+    background: linear-gradient(90deg, #403ccf, #5b3be6);
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05); /* Efecto al pasar el mouse */
+    opacity: 0.9;
+}
+
+/* Texto adicional */
+p {
+    font-size: 1rem;
+    color: #49495a;
+    margin: 0;
+}
+
+/* Imagen */
+.contenedor-imagen img {
+    width: 100%;
+    height: 820px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsivo */
+@media (max-width: 1024px) {
+    .proximos-pasos {
+        grid-template-columns: 1fr; /* Una sola columna en pantallas medianas */
+        text-align: center;
+    }
+
+    .contenedor-imagen {
+        margin-top: 2rem;
+    }
+
+    .botones {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.7rem 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
